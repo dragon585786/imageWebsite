@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        register form
+    </title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+</head>  
+<body>
+    <header class="registerr">
+        <h1>
+            registration done here
+        </h1>
+    </header>
+    <!-- use get , not post -->
+    <form method="GET">
+        <div class="register">
+            Name : <input type="text" name="name"><br>
+            Last name : <input type="text" name="lastname" ><br>
+            email id : <input type="email" required name="email" ><br>
+            password : <input type="password" min="8" name="password"><br>
+            Birthday : <input type="date" name="birthday"><br>
+
+            Gender : <br>   
+            <input type="radio" name="gender" value="male" >Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <input type="radio" name="gender" value="saannpplog">Sanp log<br>
+            cars :
+            <select name="cars">
+                <option value="suzuki">Suzuki </option>
+                <option value="audi">audi </option>
+                <option value="farari">farari </option>
+                <option value="bugatii">bugatii </option>
+            
+            
+            </select><br>
+                <!-- submit button -->
+            <input type="submit" value="registerbroooo">
+            <input type="reset" value="resetbro">
+        </div>
+    </form>
+</body>  
+
+</html>
+
+<!-- values send to data base hahahah -->
+<!-- ?name=saas
+&lastname=asasas
+&email=asas%40gmail.com
+&password=1234
+&birthday=2019-04-16
+&gender=on
+&cars=audi -->
