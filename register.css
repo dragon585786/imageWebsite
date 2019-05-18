@@ -1,4 +1,5 @@
 /* register */
+
 .register {
     padding: 14px 16px;
     color: lightgreen;
@@ -7,16 +8,15 @@
     overflow: auto;
     float: left;
 }
-    
+
 .registerr {
     color: aqua;
     border: 3px dashed white;
     text-align: center;
- }
-     
+}
+
 body {
     background-image: url(Cool_Wallpaper_HD_165.jpg);
     background-size: cover;
     overflow: hidden;
 }
-    
